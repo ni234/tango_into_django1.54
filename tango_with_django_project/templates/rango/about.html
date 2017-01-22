@@ -1,0 +1,13 @@
+{% block title %}ABOUT by Forrest{% endblock %}
+
+{% block body_block %}
+
+{% load static %}
+
+<div class="hero-unit">
+        <h1>About Rango Barrelrolls!</h1>
+        About Rango:  <strong>{{ nextStep }}</strong><br />
+        <a href='/rango/'>Index</a><br />
+        <img src="{% static "rango.png" %}" alt="Picture of Rango" />
+</div>        
+{% endblock %}
